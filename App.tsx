@@ -25,11 +25,12 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import CountDownTimer from './components/CountDownTimer';
+import {BluredText} from './components/BluredText';
 
 const App = () => {
   return (
-    <SafeAreaView>
-      <CountDownTimer />
+    <SafeAreaView style={{flex: 1}}>
+      <BluredText />
     </SafeAreaView>
   );
 };
